@@ -43,17 +43,70 @@
 // console.log(newMap(array2, mostrarElementosMap))
 
 
-/*some*/
-let array3 = [14, 15, 16, 17, 18, 19]
- callback(atual, index, arr)
-function newSome(){
+// /*some*/
+// let array3 = [14, 15, 16, 17, 18, 19]
+
+// function newSome(arr, callback){
+//     for (let i = 0; i < arr.length; i++){
+//         if(callback(arr[i]) === true){
+//             return true
+//         }
+//     }
+//     return false
+// }
+
+// function isBiggerThan10(element) {
+//     return element > 50;
+// }
+
+// console.log(newSome(array3, isBiggerThan10))
+
+
+// /*find*/
+// let array4 = [15, 16, 17, 18, 19, 20]
+
+// function newFind(array, callback){
+//     for(let i = 0; i < array.length; i++){
+//         if(callback(array[i]) === true){
+//             return array[i]
+//         }
+//     }
+// }
+// function call(element){
+//     return element > 18
+// }
+
+// console.log(newFind(array4, call))
+
+
+/*findIndex*/
+// let array5 = [21, 22, 23, 24, 25, 26]
+
+// function newFindIndex(arr, callback){
+//     for(let i = 0; i < arr.length; i++){
+//         if(callback(arr[i]) === true){
+//             return i
+//         }
+//     }
+// }
+
+// function mostrarElementoFindIndex(atual){
+//     return atual > 22
+// }
+
+// console.log(newFindIndex(array5, mostrarElementoFindIndex))
+
+/*every*/
+let array6 = [27, 28, 29, 30, 31, 32]
+
+function newEvery (arr, callback){
 
 }
 
+function mostrarEvery(elemento){
+    return elemento >= 20;
+}
 
-/*find*/
-/*findIndex*/
-/*every*/
 /*filter*/
 /*concat*/
 /*includes*/
