@@ -97,23 +97,81 @@
 // console.log(newFindIndex(array5, mostrarElementoFindIndex))
 
 /*every*/
-let array6 = [27, 28, 29, 30, 31, 32]
+// let array6 = [27, 28, 29, 30, 31, 32]
 
-function newEvery (arr, callback){
+// function newEvery (arr, callback){
+//     for(let i = 0; i < arr.length; i++){
+//         if(callback(arr[i]) === false){
+//             return false
+//         }else{
+//             return true
+//         }
+//     }
+// }
 
-}
+// function mostrarEvery(elemento){
+//     return elemento > 20;
+// }
 
-function mostrarEvery(elemento){
-    return elemento >= 20;
-}
+// console.log(newEvery(array6, mostrarEvery))
 
-/*filter*/
+// /*filter*/
+// let array7 = [33, 34, 35, 36, 37, 38]
+
+// function newFilter(arr, callback){
+//     let newArr = []
+//     for(let i = 0; i < arr.length; i++){
+//         if(callback(arr[i]) === true){
+//             newArr.push(arr[i])
+//         }
+//     }
+//     return newArr
+// }
+
+// function mostrarFilter(elemento){
+//     return elemento <= 36;
+// }
+
+// console.log(newFilter(array7, mostrarFilter))
+
 /*concat*/
+// let arr1 = [1, 2, 3]
+// let arr2 = [4, 5, 6]
+// let array8 = [39, 40, 41, 42, 43, 44]
+
+// function newConcat(arr, valor1, valor2){
+//     let newArr = [...arr, ...valor1, ...valor2]
+//     return newArr
+// }
+
+// console.log(newConcat(array8, arr1, arr2))
+
 /*includes*/
+let array9 = [45, 46, 47, 48, 49, 50]
+
+function newIncludes(arr, buscaElemento){
+    for(let i = 0; i < arr.length; i++){
+        if(buscaElemento === arr[i]){
+            return true
+        }
+    }
+    return false
+}
+console.log(newIncludes(array9, 50))
+
 /*indexOf*/
+let array10 = [51, 52, 53, 54, 55, 56]
+
+function newIndexOf(arr, elementoBuscado){
+    for(let i = 0; i < arr.length; i++){
+        elementoBuscado 
+    }
+}
 /*join*/
 /*reduce*/
 /*slice*/
+
+
 /*flat*/
 /*flatMap*/
 /*Array.of*/
