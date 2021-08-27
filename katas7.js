@@ -160,14 +160,35 @@ function newIncludes(arr, buscaElemento){
 console.log(newIncludes(array9, 50))
 
 /*indexOf*/
-// let array10 = [51, 52, 53, 54, 55, 56]
+let array10 = [1, 14, 1, 1, 55, 1]
 
-// function newIndexOf(arr, elementoBuscado){
-//     for(let i = 0; i < arr.length; i++){
-//         elementoBuscado 
-//     }
-// }
+function newIndexOf(arr, elementoBuscado, pontoInicial = 0){
+    for(let i = pontoInicial; i < arr.length; i++){
+        if(elementoBuscado === arr[i]){
+            return i
+        }
+    }
+    return -1
+}
+
+console.log(newIndexOf(array10, 1, 4))
+
+
 /*join*/
+let array11 = ['a', 'b', 'c']
+
+function newJoin(array, elementoSeparador){
+    let novaString = ''
+    for(let i = 0; i < array.length; i++){
+        if(array.length-1){
+
+        }
+        novaString += array[i] + elementoSeparador
+    }
+    return novaString
+}
+
+console.log(newJoin(array11, '-'))
 /*reduce*/
 /*slice*/
 
